@@ -1,0 +1,43 @@
+# Praktik Membuat Entity Relationship Diagram (ERD)
+Dalam basis data ERD merupakan salah satu cara untuk menggambarkan hubungan antar data dalam basis data menggunakan objek-objek yang telah disepakati bersama. Dia memiliki ikon-ikon yang umum digunakan dalam menggambarkan ERD. Klik pada bagian yang ditunjukan oleh anak panah. 
+
+![Other sheets](img/erd1.png)
+
+Akan muncul pilihan-pilihan selanjutnya. Pilih other sheets dan cari lagi pilihan ER. 
+
+![Pilih ER](img/erd2.png)
+
+Setelah terpilih maka, ikon-ikon khusus untuk menggambar ERD akan muncul
+
+![Ikon-ikon ER](img/erd3.png)
+
+Dari ikon-ikon tersebut, pilih ikon Entity (ditandai dengan huruf E yang paling kiri) dan tambahkan ke tempat menggambar diagram. Dalam praktik ini kita akan menggambar ERD sederhana perwalian mahasiswa dengan dosen. Maka kita membutuhkan dua entitas. 
+
+![Pilih Entity](img/erd4.png)
+
+Pada entitas yang telah dimasukkan, klik dua kali pada salah satunya, dan ubah nama entitas yang bersangkutan. 
+
+![Entitas mahasiswa](img/erd5.png)
+![Entitas Dosen](img/erd6.png)
+
+Setelah itu, tambahkan objek Relationship untuk menggambarkan hubungan antar kedua entitas tadi yang ditandai dengan huruf R.
+
+![Objek Relationship](img/erd7.png)
+
+Klik dua kali pada objek Relationship untuk mengubah propertinya. Di kolom **Name** masukan nama relasi. Kolom **Left Cardinality** dan **Right Cardinality** untuk menentukan kardinalitas pada relasi ini. Hubungan perwalian dari Mahasiswa ke Dosen adalah N ke 1 (karena banyak mahasiswa dapat memiliki satu dosen wali). Karena entitas Mahasiswa disebelah kiri, maka **Left Cardinality** diisi dengan N dan **Right Cardinality** diisi dengan 1. Klik tombol OK. 
+
+![Properti Objek Relationship ](img/erd8.png)
+
+Untuk menggambar garis dari entitas ke relasi gunakan ikon Participation. 
+
+![Paricipation](img/erd9.png)
+
+Setiap entitas memiliki atribut, maka tambahkan atribut dengan memilih ikon A. Atur nama atribut, dan ubah nilai **Key** menjadi yes apabila atribut tersebut merupakan **primary** key dari entitas yang bersangkutan.
+
+![Menambahkan Atribut](img/erd10.png)
+
+Setelah selesai menambahkan atribut, hubungkan setiap atribut dengan entitasnya menggunakan komponen Line. Setelah selesai ERD yang kita gambar akan menjadi seperti pada gambar. 
+
+![Hasil ERD](img/erd11.png)
+
+Panduan menyimpan dan mengekspor diagram dapat dilihat di bab sebelumnya. 

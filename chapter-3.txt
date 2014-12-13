@@ -1,0 +1,60 @@
+# Praktik Membuat Struktur Organisasi Sederhana dengan Dia
+Pada bagian praktik ini, kita akan belajar menggambar struktur organisasi POSS UPI. Struktur yang akan kita gambar sangat sederhana, hanya menampilkan gambar pengurus inti POSS disertai dengan garis penunjuk.
+Buka aplikasi Dia. Buat dokumen diagram baru dengan menggunakan menu File -> New, ikon New, maupun kombinasi tombol Ctrl + N.
+
+![Ikon New](img/new.png)
+
+![Menu New](img/menu-new.png)
+
+Atur ukuran kertas sesuai dengan keinginan melalui menu File -> Page Setup. Disini penulis akan menggunakan kertas A4 Landscape.
+
+![Menu page setup](img/menu-pagesetup.png)
+![Pagesetup](img/pagesetup.png)
+
+Tidak ada opsi khusus untuk menggambar struktur organisasi di Dia jadi kita akan menggambarnya menggunakan toolbox yang ada. Memanfaatkan komponen Image dan beberapa komponen garis. Pilih komponen Image dan klik disembarang tempat sebelah kanan. 
+
+![Gambar 1](img/organigramawal.png)
+
+Klik dua kali di gambar berikut ini.
+
+![Broken](img/broken.png)
+
+Dikotak dialog yang muncul, klik tombol browse.
+
+![Kotak dialog Image 1](img/browse1.png)
+
+Kemudian pilih gambar yang akan dimasukan. Klik Open.
+
+![Pilih gambar](img/pilihgambar.png)
+
+Akan kembali muncul kotak dialog yang tadi. Opsi **Draw border** akan menambahkan bingkai disekeliling foto. Opsi **Keep aspect ratio** akan mengatur tinggi dan lebar foto selalu proporsional sesuai dengan ukuran saat pertama dimasukan. **Line width** akan mengatur ketebalan bingkai yang diaktifkan oleh opsi **Draw border**. **Line color** akan mengatur warna **Draw border**. **Line style** akan mengatur gaya bingkai yang mengelilingi foto, garis lurus, garis putus-putus, bahkan titik-titik. Setelah selesai, klik Ok.
+
+![Klik Ok](img/browse2.png)
+
+Untuk menambahkan keterangan, kita bisa memasukan teks kebawah foto yang sudah dimasukan. Teks juga dapat kita atur dengan mengklik teks bersangkutan dua kali.
+
+![Tambah teks](img/tambahteks.png)
+
+![Atur teks](img/text-atur.png)
+
+Lakukan hal yang sama untuk semua foto. Setelah semua foto selesai dimasukan, tambahkan garis-garis pada setiap orang dengan menggunakan komponen garis yang ada. Hasilnya terlihat dibawah.
+
+![Hasil struktur organisasi](img/organigram.png)
+
+## Menyimpan Diagram
+Setelah selesai menggambar diagram, kita dapat menyimpan diagram tersebut  melalui menu File -> Save atau dengan kombinasi tombol Ctrl + S. Tentukan namanya dan klik tombol Save. Ekstensi yang digunakan oleh Dia adalah <namaberkas>.dia.
+
+![Jendela Penyimpanan](img/jendela-simpan.png)
+
+## Mengekspor Diagram
+Setelah diagram dibuat dan disimpan, kita tentu ingin menggunakan diagram tadi. Dengan menggunakan fitur ekspor, kita akan mendapatkan diagram dalam berkas yang berbeda (misalnya berkas .png, .jpg, dsb.). Caranya klik tombol File -> Export.
+
+![Menu Export](img/menu-export.png)
+
+Kemudian pada jendela yang muncul tentukan nama berkas, serta jenis berkas yang diinginkan (lihat kotak merah). Disini penulis memilih jenis berkas .png. Setelah selesai klik Save. Selanjutnya kita akan dimintai ukuran dari gambar diagram yang diinginkan, langsung saja tekan tombol Export. 
+
+![Ukuran](img/ukuran-export.png)
+
+Hasil export akan muncul di folder yang sama ditempat dimana kita menyimpan berkas .dia.
+
+![Hasil Gambar](img/hasildiagram.png)

@@ -1,0 +1,76 @@
+# Mengenal Bagian-bagian Dia
+Setelah dipasang kita bisa membuka Dia melalui menu start (jika di Windows), Dash (jika di Ubuntu), menu Gnome (jika menggunakan Fedora), bahkan melalui terminal dengan mengetikkan perintah `dia`.
+
+![Menu Dia di Fedora](img/menu-gnome.png)
+
+Saat pertama kali dibuka, Dia akan muncul seperti gambar dibawah ini. 
+
+![Windows. Sumber: beginlinux.com](http://beginlinux.com/images/courses/dia/dia_int1.gif)
+
+![Fedora](img/jendela-pertama.png)
+
+Perhatian bagian yang penulis beri nomor digambar.
+1. Merupakan menu file. Disini kita dapat menemukan banyak menu mulai dari membuka, menutup, menyimpan, menyisipkan gambar, dan banyak fungsi lainnya.
+2. Merupakan sekumpulan ikon-ikon yang paling sering dipakai seperti membuat diagram baru, membuka diagram yang pernah dibuka, menyimpan diagram, salin-potong-tempel (copy, cut, paste), zoom in dan zoom out, dan beberapa ikon lain.
+3. Toolbox, berisi berbagai perkakas yang akan membantu kita dalam membuat diagram mulai dari menggambar garis lurus, garis lengkung, garis zigzag, lingkaran, persegi, serta memasukan tulisan kedalam diagram. 
+4. Menentukan jenis diagram apa yang akan kita buat. Pilihan di nomor 4 akan mempengaruhi bagian 5.
+5. Berisi ikon-ikon sesuai dengan jenis diagram yang dipilih pada nomor 4. 
+6. Tempat dimana kita akan menggambar diagram.
+
+## Lebih Dekat dengan Toolbox
+Toolbox Dia memiliki 16 komponen:
+* Outline
+* Image
+* Bezier line
+* Polyline
+* Zigzagline
+* Arc
+* Line
+* Beziergon
+* Polygon
+* Ellipse
+* Box 
+* Text
+* Scroll around diagram
+* Magnify
+* Text edit
+* Modify Object 
+
+![Toolbox Dia](img/toolbox.png)
+
+Komponen outline jika digunakan akan menampilkan gambar tanda tanya.
+
+![Outline Dia](img/outline.png)
+
+Komponene Image jika digunakan dapat memasukan gambar kedalam diagram.
+
+![Image Dia](img/image.png)
+
+Selanjutnya komponen Box, Ellipse, dan Polygon masing-masing dapat digunakan untuk menggambar kotak, lingkaran, dan segitiga.
+
+![Box, Ellipse, Polygon](img/bangundatar.png)
+
+Komponen Line, Zigzagline, Arc, dan Bezierline dapat digunakan untuk menggambar garis lurus, garis lengkung, serta zigzag.
+
+![Garis](img/garis.png)
+
+Untuk membuat tulisan seperti pada gambar di bawah ini, diperlukan tool Text. 
+
+![Tulisan](img/tulisan.png)
+
+![Text](img/text.png)
+
+Sedangkan untuk mengubah teks yang telah dimasukan dengan komponen Text, digunakan komponen Text edit.
+
+![Text edit](img/text-edit.png)
+
+## Mengenal Konsep Layer pada Dia
+Jika pembaca pernah menggunakan aplikasi seperti Photoshop atau GIMP. Maka pembaca pasti familiar dengan istilah layer atau lapisan. Di aplikasi Dia, setiap objek yang dimasukan itu disimpan dilayer tersediri. Untuk lebih jelas lihat gambar di bawah.
+
+![3 Objek](img/3objek.png)
+
+Gambar di atas menunjukan adanya tiga objek yang saling menumpuk yakni segitiga merah, lingkaran biru, serta layang-layang hijau. Ketiga komponen tersebut oleh Dia disimpan di lapisan yang saling terpisah. Maka jika kita ingin menggeser suatu komponen ke layer atas maupun ke layer dibawahnya, kita dapat memanfaatkan Menu Objects dengan sebelumnya memilih objek yang ingin digeser. Opsi **Send to Back** akan mengirim objek yang dipilih ke layer paling bawah. Opsi **Bring to Front** akan membawa objek yang dipilih ke layer paling atas. **Send Backwards** dan **Bring Forwards** masing-masing membawa objek yang dipilih ke layer di bawahnya dan ke layer di atasnya. 
+
+![Layering](img/layering.png)
+
+

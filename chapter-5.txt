@@ -1,0 +1,6 @@
+#Penutup
+Buku ini ditulis untuk membantu semua orang yang membutuhkan aplikasi untuk mengganbar diagram. Meskipun Dia merupakan aplikasi yang *free and open source* alias gratis tidak membuat Dia menjadi aplikasi ecek-ecek. Justru Dia mampu membuktikan kualitasnya sebagai aplikasi penggambar Diagram yang sangat ampuh.
+
+Penulis menyadari banyak sekali kekurangan pada buku ini. Apabila pembaca memiliki kritik, saran, atau pertanyaan khususnya Dia maupun *free and open source software* secara umum, jangan sungkan untuk menghubungi penulis melalui email di [baguzzzaji@gmail.com](mailto:baguzzzaji@gmail.com), [www.facebook.com/baguzzzaji](www.facebook.com/baguzzzaji), [http://twitter.com/#!/bagusajiz](http://twitter.com/#!/bagusajiz), blog POSS-UPI di [http://poss-upi.org](http://poss-upi.org) maupun blog penulis di [http://fedoraku.info](http://fedoraku.info).
+
+Terimakasih sudah membaca buku ini. Semoga bermanfaat.
